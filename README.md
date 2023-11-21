@@ -1,0 +1,1 @@
+# itmo_image_generation_course
