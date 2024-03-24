@@ -7,7 +7,8 @@
 ДЗ 2. Имплементация GAN с изображениями 128x128
 Датасет CelebA
 
-Ссылка на Kaggle-ноутбук
+Ссылка на Kaggle-ноутбук: 
+https://www.kaggle.com/code/sergeykit/dcgan
 
 Имплементирован CSPup блок
 Имплементирован генератор GAN по заданной архитектурной схеме
@@ -19,7 +20,12 @@
   - замена в CSPup ReLU на LeakyReLU
   - изменение batch size
 
-Результаты
+Результаты:
+
+![Result](https://github.com/Sergey-Kit/itmo_image_generation_course/assets/82327055/a2ef4f75-1d1c-4e41-853b-f58e7067481a)
+
+
+
 
 
     
