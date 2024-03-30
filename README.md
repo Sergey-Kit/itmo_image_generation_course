@@ -1,4 +1,4 @@
-![image](https://github.com/Sergey-Kit/itmo_image_generation_course/assets/82327055/62a42e14-b2d5-4bc5-b18c-e1822925cf69)# Обработка и генерация изображений
+# Обработка и генерация изображений
 
 Репозиторий Китаева Сергея
 
