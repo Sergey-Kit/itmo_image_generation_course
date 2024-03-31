@@ -76,4 +76,8 @@
 
 ![image](https://github.com/Sergey-Kit/itmo_image_generation_course/assets/82327055/094d6029-2a06-44cd-8105-fb878b880b4e)
 
+### FaceSwap
 
+EMerphy - LDCaprio - Stethem
+
+![image](https://github.com/Sergey-Kit/itmo_image_generation_course/assets/82327055/a89b3c59-f465-42c8-a932-6b00b9c679bf)
