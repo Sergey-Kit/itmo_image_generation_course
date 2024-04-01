@@ -39,7 +39,36 @@ https://www.kaggle.com/code/sergeykit/dcgan
 ![Result](https://github.com/Sergey-Kit/itmo_image_generation_course/assets/82327055/a2ef4f75-1d1c-4e41-853b-f58e7067481a)
 
 
+## Исправления
 
+имплементация CSPup блока
+
+```
+class CSPup(nn.Module):
+    def __init__(self, in_channels, out_channels, kernel_size=4, stride=2, padding=1):
+        super().__init__()
+        self.kernel_size =kernel_size
+        self.stride = stride
+        self.padding = padding
+        self.in_channels = in_channels
+        self.out_channels = out_channels
+        self.split_channels = self.in_channels//2
+        self.left = nn.Sequential(
+            nn.ConvTranspose2d(self.split_channels, self.out_channels, self.kernel_size, self.stride, self.padding, bias=False),
+        )
+        self.right = nn.Sequential(
+            nn.Conv2d(self.split_channels, self.out_channels , 1, 1, 0),
+            nn.ReLU(),
+            nn.ConvTranspose2d(self.out_channels, self.out_channels , self.kernel_size, self.stride, self.padding, bias=False),
+            nn.Conv2d(self.out_channels, self.out_channels , 3, 1, 0),
+            nn.ReLU(),
+            nn.Conv2d(self.out_channels, self.out_channels, 3, 1, 0),
+        )
+    def forward(self, x):
+        x1, x2 = x.chunk(2, dim=1)
+        y = self.left(x1)+self.right(x2)
+        return y
+```
 
 
     
