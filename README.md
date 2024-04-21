@@ -9,9 +9,9 @@
 Собран датасет и обучен U-Net.
 
 Параметры
---instance_prompt="a photo of sks woman face" токен на который мы хотим обучить персонажа
+--instance_prompt="a photo of sks man face" токен на который мы хотим обучить персонажа
 
---class_prompt="a photo of woman face" промт для регуляризации
+--class_prompt="a photo of man face" промт для регуляризации
 
 ![Снимок экрана 2024-04-22 012546](https://github.com/Sergey-Kit/itmo_image_generation_course/assets/82327055/b3c075da-09c5-47ee-9fc2-d2fba20b0e42)
 ![Снимок экрана 2024-04-22 012524](https://github.com/Sergey-Kit/itmo_image_generation_course/assets/82327055/5e1e2bdb-9a16-4904-9f52-62b1e21e3625)
