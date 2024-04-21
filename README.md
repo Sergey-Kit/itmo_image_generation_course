@@ -31,18 +31,17 @@
 ![Снимок экрана 2024-04-22 012501](https://github.com/Sergey-Kit/itmo_image_generation_course/assets/82327055/533de96d-11fc-4b9f-a1e4-7e9175200fed)
 ![Снимок экрана 2024-04-22 012441](https://github.com/Sergey-Kit/itmo_image_generation_course/assets/82327055/6160f84d-2cee-4bd6-993d-47c0cb481adf)
 
+пример - rank 8 lr 8e-5
 
-#### Сравнить лучший чекпоинт Unet и Lora
+![Снимок экрана 2024-04-22 013551](https://github.com/Sergey-Kit/itmo_image_generation_course/assets/82327055/92bc3ca0-ac1c-4534-9fbb-ab4b6c8758ad)
+![Снимок экрана 2024-04-22 013605](https://github.com/Sergey-Kit/itmo_image_generation_course/assets/82327055/684483d8-ff78-4a44-b036-fd3d68d8aeab)
+![Снимок экрана 2024-04-22 015805](https://github.com/Sergey-Kit/itmo_image_generation_course/assets/82327055/bb8ff9db-e35e-48c1-b8ec-b3ba070039bf)
+![Снимок экрана 2024-04-22 015757](https://github.com/Sergey-Kit/itmo_image_generation_course/assets/82327055/7e5b1e30-2f12-40df-903f-ff608ec71622)
+![Снимок экрана 2024-04-22 013610](https://github.com/Sergey-Kit/itmo_image_generation_course/assets/82327055/61f679dd-54c3-464c-b4d5-20b59e5a0843)
+![Снимок экрана 2024-04-22 015809](https://github.com/Sergey-Kit/itmo_image_generation_course/assets/82327055/f65ba2a4-b49d-4e0e-a043-268bd2df6f95)
 
+#### ControlNet:
 
-#### ControlNet
+![Снимок экрана 2024-04-22 015421](https://github.com/Sergey-Kit/itmo_image_generation_course/assets/82327055/c53b3e95-a3dd-4ebf-95b5-57a3b7683734)
 
-
-
-
-Возраст - индексы - интервал от 0 до 9
-
-
-
-Поворот головы - индексы -  от 0 до 6
-
+![Снимок экрана 2024-04-22 015341](https://github.com/Sergey-Kit/itmo_image_generation_course/assets/82327055/49b1d871-2658-49aa-b18a-31d929f8a934)
